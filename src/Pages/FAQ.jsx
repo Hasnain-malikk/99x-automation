@@ -3,7 +3,7 @@ import '../App.css'
 
 const FAQ = () => {
   return (
-    <div>
+    <div className='faq'>
       these are some FAQs
     </div>
   )

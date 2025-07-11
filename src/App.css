@@ -3,3 +3,15 @@
   margin: 0;
   box-sizing: border-box;
 }
+.heading2{
+  font-family: "Inter", sans-serif;
+  padding-left: 60px;
+  font-size: 35px;
+  font-weight: 300;
+}
+@media (max-width: 480px) {
+  .heading2{
+    font-size: 15px;
+    padding-left: 35px;
+  }
+}

@@ -6,3 +6,48 @@
 .Section1 img{
     height: 700px;
 }
+.playText{
+    font-family: Montserrat;
+    font-weight: 300;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #666666;
+}
+.playBody{
+    display: flex;
+    background-color: pink;
+    height: 57px;
+    width: 240px;
+}
+.pBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 57px;
+    background-color: black;
+}
+.pBtn img {
+    width: 65%;
+    height: 65%;
+    object-fit: cover; /* or contain, depending on your use case */
+    display: block;
+}
+.playImg img{
+    width: 191%;
+    height: 100%;
+    object-fit: cover; /* or contain, depending on your use case */
+    display: block;
+    object-position: top;
+}
+.playSocial img {
+    height: 27px;
+    width: 15px;
+    padding-top: 12px;
+}
+.playSocial{
+    display: flex;
+    gap: 20px;
+}

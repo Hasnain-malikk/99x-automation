@@ -6,3 +6,8 @@
     width: 350px;
     /* background-color: #F5F5F5; */
 }
+@media (max-width:480px) {
+    .Section1Text{
+        margin: 0 19px 12px 35px;
+    }
+}

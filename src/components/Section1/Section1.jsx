@@ -25,6 +25,7 @@ const Section1 = () => {
             <img src={linkedin} alt="" />
         </div>
       </div>
+      <div className="ai">AI AUTOMATION</div>
     </div>
   )
 }

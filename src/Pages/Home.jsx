@@ -10,6 +10,7 @@ const Home = () => {
       <div className='heading2' style={{marginTop:"-65px"}} >FOR REAL</div>
       <div className='heading2'>BUSINESS GROWTH</div>
       <Section1/>
+      <div>dwda dwuiadb diwjb</div>
     </div>
   )
 }

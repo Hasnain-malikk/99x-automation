@@ -9,5 +9,6 @@
 @media (max-width:480px) {
     .Section1Text{
         margin: 0 19px 12px 35px;
+        font-size: 15px;
     }
 }

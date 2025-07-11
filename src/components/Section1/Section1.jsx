@@ -12,7 +12,7 @@ const Section1 = () => {
   return (
     <div className='Section1'>
       <Section1Text/>
-      <img src={homeImg} alt="img" />
+      <img src={homeImg} className='homeImg' alt="img" />
       <div className="playBtn">
         <div className="playText">Discover more about us!</div>
         <div className="playBody">

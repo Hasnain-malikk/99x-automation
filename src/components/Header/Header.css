@@ -24,7 +24,7 @@
 }
 @media (max-width: 480px) {
   .header{
-    padding: 78px 40px;
+    padding: 40px 40px;
   }
   .topLeft,.topRight{
     font-size: 15px;

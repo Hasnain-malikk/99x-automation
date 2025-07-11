@@ -4,7 +4,7 @@
     margin-top: 20px;
     flex-wrap: wrap;
 }
-.Section1 img{
+.homeImg{
     height: 700px;
 }
 .playText{
@@ -65,4 +65,23 @@
   position: relative;
   left: 60px;
   bottom: 280px;
+}
+.playBtn{
+        padding-left: 40px;
+    padding-top: 110px;
+}
+@media (max-width:480px) {
+    .ai{
+        font-size: 45px;
+        left: 30px;
+    }
+    .playBtn{
+        padding-top: 20px;
+        padding-left: 80px ;
+    }
+    .homeImg{
+    height: 570px;
+    /* width: 450px; */
+}
+    
 }

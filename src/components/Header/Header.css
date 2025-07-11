@@ -1,6 +1,8 @@
 .header{
-    margin: 50px 150px;
+    padding: 0 150px;
+    margin: 50px 0;
     font-family: "Montserrat", sans-serif;
+    /* background-color: #F5F5F5; */
 }
 .headingTop{
     justify-content: space-between;

@@ -1,0 +1,8 @@
+.Section1{
+    display: flex;
+    background: linear-gradient(to bottom, #ffffff, #f5f5f5);
+    margin-top: 20px;
+}
+.Section1 img{
+    height: 700px;
+}

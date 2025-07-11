@@ -1,10 +1,11 @@
 import React from 'react'
 import '../App.css'
+import Header from '../components/Header/Header'
 
 const Home = () => {
   return (
     <div className='home'>
-      this is home
+      <Header/>
     </div>
   )
 }

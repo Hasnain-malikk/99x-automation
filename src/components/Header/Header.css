@@ -1,0 +1,40 @@
+.header{
+    margin: 50px 150px;
+    font-family: "Montserrat", sans-serif;
+}
+.headingTop{
+    justify-content: space-between;
+    display: flex;
+}
+.topLeft{
+    font-size: 35px;
+    font-weight: 400;
+}
+.topRight{
+    font-size: 35px;
+    font-weight: 500;
+}
+.headingBottom{
+    color: #2E3192;
+    font-size: 180px;
+    font-weight: 900;
+    margin-top: -40px;
+}
+@media (max-width: 480px) {
+  .header{
+    margin: 78px 40px;
+  }
+  .topLeft,.topRight{
+    font-size: 15px;
+  }
+  .headingBottom{
+    font-size: 55px;
+    margin-top: 0;
+  }
+  .topLeft{
+    font-weight: 500;
+  }
+  .topRight{
+    font-weight: 600;
+  }
+}

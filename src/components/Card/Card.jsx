@@ -11,7 +11,7 @@ const Card = () => {
       <img style={{height:"8px",margin:"8px 170px 0 0"}} src={line} alt="" />
       <div style={{margin: "10px 110px 0 0"}} className="para">Effortless spa</div>
       <div style={{marginRight:"109px"}} className="para">appointment</div>
-      <div style={{marginRight:"95px"}} className="para">personalized se</div>
+      <div style={{marginRight:"93px"}} className="para">scheduling and </div>
       <div style={{marginRight:"62px"}} className="para">personalized service</div>
       <div style={{marginRight:"68px"}} className="para">recommendations.</div>
       <button className='card-btn' >Start Conversation</button>

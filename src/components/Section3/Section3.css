@@ -3,7 +3,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 150vh;
+  height: 200vh;
 }
 .s3h1{
     padding: 0px 55px;
@@ -40,13 +40,34 @@
     font-size: 18px;
     letter-spacing: 0%;
     text-align: justify;
-
+}
+.link1{
+    border-top: 1px solid grey ;
+    /* background-color: aquamarine; */
+    height: 65px;
+    margin: 0px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.text11{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.img11{
+    height: 20px;
 }
 @media (max-width:480px) {
     .s3h1{
         font-size: 17px;
     }
-    .robot img{
+    .robot-img{
         height: 110px;
     }
     .card-container{
@@ -54,6 +75,16 @@
         gap: 35px;
     }
     .section3{
-        height: 187vh;
+        height: 250vh;
+    }
+    .heading11{
+        font-size: 12px;
+    }
+    .para11{
+        font-size: 12px;
+        margin: 20px 70px 40px;
+    }
+    .text11{
+        font-size: 10px;
     }
 }

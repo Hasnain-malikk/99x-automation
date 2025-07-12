@@ -1,0 +1,24 @@
+.section3 {
+  background-image: url('/src/assets/bg-img.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.s3h1{
+    padding: 0px 55px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: Bold;
+    font-size: 30px;
+    line-height: 125%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #2E3192;
+}
+@media (max-width:480px) {
+    .s3h1{
+        font-size: 17px;
+    }
+    
+}

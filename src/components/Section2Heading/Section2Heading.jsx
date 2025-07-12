@@ -4,7 +4,7 @@ import './Section2Heading.css'
 const Section2Heading = () => {
   return (
     <div className='section2Heading'>
-      section 2 here 
+      Trusted by companies big and small
     </div>
   )
 }

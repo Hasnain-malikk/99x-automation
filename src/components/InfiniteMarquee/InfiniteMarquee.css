@@ -1,0 +1,19 @@
+.marquee-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+}
+
+.InfiniteMarquee {
+    margin: 13px 0 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: max-content;
+}
+
+.InfiniteMarquee img {
+    height: 26px;
+}

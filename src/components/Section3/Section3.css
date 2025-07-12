@@ -21,6 +21,27 @@
     margin: 0 55px;
     display: flex;
 }
+.heading11{
+    margin-left: 70px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: Bold;
+    font-size: 35px;
+    line-height: 125%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #2E3192;
+}
+.para11{
+    margin: 20px 70px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    letter-spacing: 0%;
+    text-align: justify;
+
+}
 @media (max-width:480px) {
     .s3h1{
         font-size: 17px;
@@ -28,5 +49,11 @@
     .robot img{
         height: 110px;
     }
-    
+    .card-container{
+        flex-wrap: wrap;
+        gap: 35px;
+    }
+    .section3{
+        height: 187vh;
+    }
 }

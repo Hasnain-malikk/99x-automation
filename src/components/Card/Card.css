@@ -51,10 +51,10 @@
      /* transform: translateY(-40px); Move it up */
     bottom: 40px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
-    height: 340px;
+    /* height: 340px; */
 }
 .cards:hover .card-btn{
-    margin-top: 90px;
+    /* margin-top: 90px; */
     color: white;
     background-color: #2E3192;
     /* transition: margin-top 0.3s ease; */

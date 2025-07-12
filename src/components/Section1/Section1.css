@@ -32,6 +32,7 @@
     background-color: black;
 }
 .pBtn img {
+    cursor: pointer;
     width: 65%;
     height: 65%;
     object-fit: cover; /* or contain, depending on your use case */
@@ -48,6 +49,13 @@
     height: 27px;
     width: 15px;
     padding-top: 12px;
+    cursor: pointer;
+}
+.playSocial img {
+transition: transform 0.2s;
+}
+.playSocial img:hover {
+    transform: scale(1.2);
 }
 .playSocial{
     display: flex;
@@ -70,6 +78,10 @@
 .playBtn{
         padding-left: 40px;
     padding-top: 110px;
+}
+.pBtn img:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s;
 }
 @media (max-width:480px) {
     .ai{

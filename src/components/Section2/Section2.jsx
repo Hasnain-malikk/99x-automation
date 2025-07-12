@@ -11,7 +11,7 @@ const Section2 = () => {
         Powering Progress Through Strategic Partnerships
       </div>
       <InfiniteMarquee/>
-      <div>asdkhasod</div>
+      {/* <div>asdkhasod</div> */}
     </div>
   )
 }

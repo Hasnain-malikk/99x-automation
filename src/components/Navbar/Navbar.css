@@ -38,6 +38,11 @@
     border-radius: 5px;
     color: white;
     background-color: #2E3192;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.btn button:hover {
+    transform: scale(1.1);
 }
 @media (max-width: 480px) {
     .navbar{

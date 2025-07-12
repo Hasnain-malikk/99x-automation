@@ -8,3 +8,9 @@
   text-align: center;
   color: #666666;
 }
+@media (max-width:480px) {
+    .s2h2{
+        font-size: 11px;
+    }
+    
+}

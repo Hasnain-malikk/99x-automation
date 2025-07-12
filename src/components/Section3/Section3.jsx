@@ -6,6 +6,7 @@ import Card1 from '../Card/Card1'
 import Card2 from '../Card/Card2'
 import Card3 from '../Card/Card3'
 import arrow from '/ReactJs/99x-automation/src/assets/arrow.png'
+import hoverImg from '/ReactJs/99x-automation/src/assets/link-hover.png'
 
 const Section3 = () => {
   return (
@@ -23,19 +24,20 @@ const Section3 = () => {
         <div style={{padding:"45px 0 0 0"}} className="heading11">Our Services Will Transform Your </div>
         <div className="heading11">Business with Intelligent Automation</div>
         <div className='para11'>We empower businesses with AI Voice Agent and AI Text Chatbots that automate customer interactions, enhancing efficiency and driving growth. Our solutions are designed to provide seamless communication, enabling your team to focus on strategic initiatives while our intelligent agents handle routine tasks.</div>
-        <div className="link1">
+        <div className="link1" id='link0'>
             <div className='text11'>Advanced Automations</div>
             <img className='img11' src={arrow} alt="" />
         </div>
-        <div className="link1">
+        <div className="link1" id='link1'>
             <div className='text11'>Latest AI Models</div>
             <img className='img11' src={arrow} alt="" />
+        <img className='hover-img' src={hoverImg} alt="" />
         </div>
-        <div className="link1">
+        <div className="link1" id='link2'>
             <div className='text11'>Social Media Integrations</div>
             <img className='img11' src={arrow} alt="" />
         </div>
-        <div style={{borderBottom:"1px solid grey"}} className="link1">
+        <div style={{borderBottom:"1px solid grey"}} className="link1" id='link3'>
             <div className='text11'>Rigorous Testing</div>
             <img className='img11' src={arrow} alt="" />
         </div>

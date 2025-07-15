@@ -66,8 +66,7 @@
 .hover-img{
     right: 200px;
     display: block;
-    /* bottom: 200px;
-    left: 700px; */
+    left: 700px; 
     height: 140px;
     /* position: relative; */
 }
